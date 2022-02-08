@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="../css/shoppingCart.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <div class="container-fluid topNav">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 col-md-6 col-sm-12">
+                    <div class="topNavLeft"><i class="far fa-phone-alt"></i> <a href="#">+748 383 23 14</a> </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="topNavRight ">
+                        <div> <a href="#">Terms of Use |</a> </div>
+                        <div> <a href="#"> FAQ |</a></div>
+                        <div> <a href="#"> Customer service</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container centerNav">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div>
+                        <h2>Snobella</h2>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-4 col-sm-12">
+                    <div id="search"> <span class="d-flex justify-content-between"><input type="text"
+                        placeholder="Search all product"> <i class="fas fa-search p-2"></i></span></div>
+           
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="centerNavInner">
+                        <div><i class="fal fa-user-alt"></i> <span>Sign up</span></div>
+                        <div><i class="fal fa-heart"></i> <span>Wishlist</span></div>
+                        <div id="basket"><i class="fal fa-shopping-bag"></i> 
+                            <span id="badgeForShopping">0</span></i><span>Basket</span></div>                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bottomNav">
+        <nav class="navbar navbar-expand-lg navbar-light nav">
+           
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ">
+                <li class="nav-item ">
+                  <a class="nav-link text-dark" href="../html/landing.html">Landing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="../html/productList.html">Product List</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="./productPage.html">Product Page</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark " href="./shoppingCart.html">Shopping Cart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="./myAccountAddres.html">Account Addres</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="../html/AccountFavorite.html">Account Favorite</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h2>Shopping bag</h2>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container main">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+             <div class="main-left">
+                 <div class="div1">
+                     <img src="../image/bag2.png" >
+                 </div>
+                 <div class="div2">
+                        <span><b>Hotel Magique  Love and Magique Tote Bag</b></span>
+                        <div class="d-flex" id="left">
+                            <span class="size-left">Size: XS</span>
+                            <span class="color-left">Color: Grey</span>
+                        </div>                    
+                        <div id="left">
+                            <span class="delivery-left">Delivery: 25-32 days</span> 
+                        </div>
+
+                        <div id="left" >                        
+                            <span class="quality-left">Quality</span>   
+                        </div>
+                        <div id="left">
+                            <span class="number-left"> 2-9 <i class="fas fa-angle-down"></i></span>
+                        </div>
+
+                 </div>
+                 <div class="div3">
+                    <span><b>US $20.00</b></span>
+                    <span class="remove">
+                        <span id="fav" ><i  class="fas fa-heart"></i> Favorite</span>
+                        <span><i class="fas fa-trash"></i> Remove</span>
+                    </span>
+                 </div>
+             </div>
+
+             <div class="main-left">
+                <div class="div1">
+                    <img src="../image/bag6.png" >
+                </div>
+                <div class="div2">
+                       <span><b>Hotel Magique  Love and Magique Tote Bag</b></span>
+                       <div class="d-flex" id="left">
+                           <span class="size-left">Size: XS</span>
+                           <span class="color-left">Color: Grey</span>
+                       </div>                    
+                       <div id="left">
+                           <span class="delivery-left">Delivery: 25-32 days</span> 
+                       </div>
+
+                       <div id="left" >                        
+                           <span class="quality-left">Quality</span>   
+                       </div>
+                       <div id="left">
+                           <span class="number-left"> 50 <i class="fas fa-angle-down"></i></span>
+                       </div>
+
+                </div>
+                <div class="div3">
+                   <span><b>US $20.00</b></span>
+                   <span class="remove">
+                       <span id="fav2"><i  class="fas fa-heart"></i> Favorite</span>
+                       <span><i class="fas fa-trash"></i> Remove</span>
+                   </span>
+                </div>
+            </div>
+
+
+            <div class="main-left">
+                <div class="div1">
+                    <img src="../image/bag4.png" >
+                </div>
+                <div class="div2">
+                       <span><b>Hotel Magique  Love and Magique Tote Bag</b></span>
+                       <div class="d-flex" id="left">
+                           <span class="size-left">Size: XS</span>
+                           <span class="color-left">Color: Grey</span>
+                       </div>                    
+                       <div id="left">
+                           <span class="delivery-left">Delivery: 25-32 days</span> 
+                       </div>
+
+                       <div id="left" >                        
+                           <span class="quality-left">Quality</span>   
+                       </div>
+                       <div id="left">
+                           <span class="number-left"> 10-49 <i class="fas fa-angle-down"></i></span>
+                       </div>
+
+                </div>
+                <div class="div3">
+                   <span><b>US $20.00</b></span>
+                   <span class="remove">
+                       <span id="fav3"><i  class="fas fa-heart"></i> Favorite</span>
+                       <span><i class="fas fa-trash"></i> Remove</span>
+                   </span>
+                </div>
+            </div>
+        </div>
+
+
+            
+            <div class="col-lg-4 col-md-4 col-sm-12 " >
+               <div class="main-right">
+                <div class="right-side">
+                    <div class="right-side-left">
+                        <p>Your subtotal</p>
+                        <p>Shipping changes</p>
+                        <h6>Total</h6>
+                    </div>
+                    <div class="right-side-right">
+                        <p>US $20.00</p>
+                        <p>Free</p>
+                        <h6>US $20.00</h6>
+                    </div>
+                </div>
+                <hr>
+                <div class="button">
+                    <input type="text" placeholder="Discount prome code">
+                    <a href="#">Apply</a>
+                </div>
+               </div>
+                <div class="confirm"><a href="#">Confirm cart</a></div>
+                <div class="cash"><a href="#">Cash payment</a></div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="container-fluid">
+        <div class="container topOfFooter" >
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="borderDiv">
+                        <div class="image"><img src="../image/transport 1.png" ></div>
+                    <h6>Guaranteed delivery</h6>
+                    <p>Consectetur adipiscing 
+                        sed do eiusmod tempor
+                         incididunt ut labore</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                   <div class="borderDiv">
+                    <div class="image"><img src="../image/entrance.png" ></div>
+                    <h6>Do not come back</h6>
+                    <p>Consectetur adipiscing 
+                        sed do eiusmod tempor
+                         incididunt ut labore</p>
+                   </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="borderDiv">
+                        <div class="image"><img src="../image/lock-alt.png" ></div>
+                    <h6>Safe and secure shopping</h6>
+                    <p>Consectetur adipiscing 
+                        sed do eiusmod tempor
+                         incididunt ut labore</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="image"><img src="../image/credit-card.png" ></div>
+                    <h6>Payment at the door or online</h6>
+                    <p>Consectetur adipiscing 
+                        sed do eiusmod tempor
+                         incididunt ut labore</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="div col-lg-6 col-md-6 col-sm-12">
+                    <h2>Snobella</h2>
+                </div>
+                <div class="div col-lg-6 col-md-6 col-sm-12">
+                    <div id="searchFooter"><input type="text" placeholder="Search all product"> <i
+                            class="fas fa-search "></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid underFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-3">
+                    <p class="footerP">The wise man therefore always holds
+                        selection. The wise man therefore always
+                        rejects pleasures to secure other greater
+                    </p>
+                    <div class="footerLetter">
+                        <span><i class="far fa-envelope"></i></span>
+                        <span class="footerMail">Snobella@gmail.com</span>
+                    </div>
+                    <div class="footerNum">
+                        <i class="far fa-phone-alt"></i>
+                        <a href="#">+748 383 23 14</a>
+                    </div>
+                    <div class="buttonFooter">
+                        <span><i class="fab fa-telegram-plane"></i>
+                            <a href="#">Send message</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-3">
+                    <ul class="footerList">
+                        <li>Shop</li>
+                        <li>Shoulder Bag</li>
+                        <li>Backpack</li>
+                        <li>Tote Bag</li>
+                        <li>Hand Bag</li>
+                        <li>Evening bags</li>
+                        <li>Purse</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-3">
+                    <ul class="footerList">
+                        <li>Company</li>
+                        <li>About us</li>
+                        <li>Contact</li>
+                        <li>Terms of Use</li>
+                        <li>Customer service</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-3">
+                    <ul class="footerList">
+                        <li>Help</li>
+                        <li>FAQ </li>
+                        <li>Delivery</li>
+                        <li>Cancellation of
+                            the order</li>
+                        <li>Don't go back</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bottomFooter">
+        <div class="row d-flex justify-content-between">
+            <div class="col-lg-9 col-md-8 col-sm-6">© 2020. All rights reserved.</div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-whatsapp"></i>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+<script src="../js/shoppingCart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,401 @@
+
+.topNav{
+    background-color: #007878;
+    
+}
+.topNavLeft{
+    width: 75%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.topNavLeft a, .topNavLeft i, .topNavRight a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+   
+}
+.topNavRight{
+    display: flex;
+   
+
+}
+.topNavRight div{
+    width: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.topNavRight div:first-child{
+    width: 90px !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.topNavRight div:last-child{
+    width: 130px !important; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.centerNav{
+    width: 100%;
+    padding-top: 20px;
+}
+.centerNav input{
+    border: none;
+    background-color: #F7F7F7;
+
+}
+#search{
+    background-color:  #F7F7F7;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+}
+#search input{
+    width: 90%;
+}
+.centerNavInner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+.centerNavInner i{
+    font-size: 25px;
+}
+#basket{
+    position: relative;
+}
+#badgeForShopping{
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    width: 15px;
+    border-radius: 4px;
+    background-color: #007878;
+    left: -4px;
+    top: 13px;
+    text-align: center;
+}
+
+
+.bottomNav ul li{
+    font-size:16px ;
+    padding:10px ;
+}
+
+/* navbar  section*/
+
+/* left side of main */
+.main{
+    margin-top: 30px;
+}
+
+.main-left{
+    width: 100%;
+    border: 1px solid #E4E4E4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.div1{
+    margin: 10px;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    height: 170px;
+    align-items: center;
+    background-color: #E4E4E4;
+}
+.div1 img{
+    width: 100%;
+}
+.div2{
+    width: 100%;
+    margin-top: 10px;
+}
+.div3{
+    text-align: end;
+    width: 50%;
+    margin: 10px;
+    position: relative;
+    
+}
+.remove{
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.remove span:first-of-type{
+    margin-right: 10px;
+}
+#left{
+    margin-bottom: 10px;
+}
+#left:last-child{
+    margin-bottom: 20px;
+}
+.size-left{
+    color: #797979;
+    font-size:14px ;
+    margin-top: 10px;
+
+}
+.color-left{
+    color: #797979;
+    font-size:14px ;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.quality-left{
+    color: #797979;
+    font-size:14px ;
+    
+
+}
+.delivery-left{
+    color: #797979;
+    font-size: 14px;
+}
+.number-left{
+    color: #797979;
+    font-size: 14px;
+    border: 1px solid #797979;
+    padding: 3px;
+    border-radius: 3px;
+
+}
+
+
+/* right side of main */
+.main-right{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F7F7F7;
+
+}
+.right-side{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.right-side-right{
+    text-align: right;
+    
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #E4E4E4;
+    margin-bottom: 15px;
+}
+.button a{
+    width: 30%;
+    padding: 10px;
+    border-radius: 0 10px 10px 0px; 
+
+    text-align: center;
+    background-color: #FF695E;
+    color: white;
+}
+.button input{
+    width: 70%;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+}
+.confirm{
+    text-align: center;
+    background-color: #FF695E;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.confirm a{
+    color: white;
+}
+.cash{
+    border: 1px solid #E4E4E4;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+.cash a{
+    color:#363636;
+}
+
+/* top Of Fotter */
+.topOfFooter{
+    width: 100%;
+    border: 1px solid #E4E4E4;
+    margin-top: 60px;
+}
+.topOfFooter .image{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.topOfFooter h6{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.topOfFooter p{
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0em;
+
+}
+
+.borderDiv{
+    border-right: 1px solid #E4E4E4;
+
+}
+
+/* Footer */
+
+.footer{
+    background-color: #F7F7F9;
+    margin-top: 50px;
+    padding-bottom: 20px;
+   
+}
+.footer h2{
+    margin-top: 20px;
+}
+.footer #searchFooter{
+    margin-top: 20px;
+}
+#searchFooter{
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#searchFooter input{
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    width: 70%;
+}
+#searchFooter i{
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Under Footer */
+
+.underFooter{
+    border-top: 1px solid grey;
+    background-color: #F7F7F7;
+    padding-bottom: 50px;
+}
+.footerP{
+    margin-top: 60px;
+    font-size: 16px;
+    width: 55%;
+    color: #212121;
+    font-weight: 400;
+    font-family: Poppins;
+    line-height: 27.2px;
+}
+.footerLetter{
+    margin-top: 30px;
+    display: flex;  
+}
+.footerLetter span i{
+    margin-right: 8px;
+    color: #1D1D1B;
+    
+}
+.footerMail{
+    color: #212121;
+    font-weight: 400;
+    font-family: Poppins;
+    line-height: 27.2px;
+}
+.footerNum{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #212121;
+    margin-top: 20px;
+}
+.footerNum a{
+    color: #212121;
+    margin-left: 8px;
+
+}
+.buttonFooter{
+    border: 1px solid #363636;
+    border-radius: 7px;
+    width: max-content;
+    margin-top: 30px;
+}
+.buttonFooter i{
+    padding-left: 20px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.buttonFooter a{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #212121;
+    padding-right: 20px;
+
+}
+.footerList{
+    margin-top:60px;
+    list-style-type: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    
+}
+.footerList li:first-child{
+    font-weight: bold;
+
+}
+.footerList li{
+    margin-bottom: 8px;
+
+}
+.bottomFooter{
+    height: 50px;
+}
+.bottomFooter i{
+padding: 15px;
+font-size: 20px;
+}
+.bottomFooter .row div:first-of-type{
+    padding-top: 15px;
+}

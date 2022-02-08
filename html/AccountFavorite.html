@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Favorite</title>
+    <link rel="stylesheet" href="../css/AccountFavorite.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+<body>
+    <div class="container-fluid topNav">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 col-md-6 col-sm-12">
+                    <div class="topNavLeft"><i class="far fa-phone-alt"></i> <a href="#">+748 383 23 14</a> </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="topNavRight ">
+                        <div> <a href="#">Terms of Use |</a> </div>
+                        <div> <a href="#"> FAQ |</a></div>
+                        <div> <a href="#"> Customer service</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container centerNav">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div>
+                        <h2>Snobella</h2>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-4 col-sm-12">
+                    <div id="search"> <span class="d-flex justify-content-between"><input type="text"
+                        placeholder="Search all product"> <i class="fas fa-search p-2"></i></span></div>
+           
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="centerNavInner">
+                        <div><i class="fal fa-user-alt"></i> <span id="myBtn">Sign up</span></div>
+                        <div><i class="fal fa-heart"></i> <span>Wishlist</span></div>
+                        <div id="basket"><i class="fal fa-shopping-bag"></i> 
+                            <span id="badgeForShopping">0</span></i><span>Basket</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bottomNav">
+        <nav class="navbar navbar-expand-lg navbar-light nav">
+           
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ">
+                <li class="nav-item ">
+                  <a class="nav-link text-dark" href="../html/landing.html">Landing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="../html/productList.html">Product List</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="./productPage.html">Product Page</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark " href="./shoppingCart.html">Shopping Cart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="./myAccountAddres.html">Account Addres</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="../html/AccountFavorite.html">Account Favorite</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+    <hr>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <table class="left-table">
+                    <tr>
+                        <td><img src="../image/Ellipse 33.png"></td>
+                        <td> 
+                        <span><b>John Smith</b></span> <br>
+                        <span class="code">Client code: BYL13000</span>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" ><i class="fal fa-box-full"></i><span>My Orders</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="favoriteTd" id="favoriteTD" ><i class="far fa-heart"></i> <span>Favorites</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><i class="fal fa-comment-dots"></i> <span>My comments</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><i class="fal fa-map-marker-alt"></i> <span>Addresses</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><i class="fas fa-user"></i> <span>Adjustments</span></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="col-lg-9 col-md-6 col-sm-12" id="rightinside">
+
+              <div class="row">
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class=" featuredOwl "> 
+                        <span class="discountSpan">30%</span>
+                        <span class="heardSpan"><i class="fal fa-window-close"></i></span>
+                        <div class="imageDiv"><img src="../image/bag2.png"></div>
+                        <span class="starSpan"><i class="fas fa-star"></i></span><span class="starSpan"><i class="fas fa-star"></i></span><span class="starSpan"><i class="fas fa-star"></i></span><span class="starSpan"><i class="fas fa-star"></i></span><span class="starSpan"><i class="fas fa-star"></i></span>
+                        <p>Shoulder Bag Leather Bag Leather 
+                            undertakes laborious physical physical </p>
+                            <span class="priceNew">$130.00</span> <span class="priceOld"> from $340.00</span>
+                            <div class="divButton"> <a onclick="addShopping()">Add to card</a></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class=" featuredOwl "> 
+                        <span class="discountSpan">30%</span>
+                        <span class="heardSpan"><i class="fal fa-window-close"></i></span>
+                        <div class="imageDiv"><img src="../image/bag2.png"></div>
+                        <span class="starSpan"><i class="fas fa-star"></i></span><span class="starSpan"><i class="fas fa-star"></i></span><span class="starSpan"><i class="fas fa-star"></i></span><span class="starSpan"><i class="fas fa-star"></i></span><span class="starSpan"><i class="fas fa-star"></i></span>
+                        <p>Shoulder Bag Leather Bag Leather 
+                            undertakes laborious physical physical </p>
+                            <span class="priceNew">$130.00</span> <span class="priceOld"> from $340.00</span>
+                            <div class="divButton"> <a onclick="addShopping()">Add to card</a></div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <div class=" featuredOwl "> 
+                      <span class="discountSpan">30%</span>
+                      <span class="heardSpan"><i class="fal fa-window-close"></i></span>
+                      <div class="imageDiv"><img src="../image/bag2.png"></div>
+                      <span class="starSpan"><i class="fas fa-star"></i></span><span class="starSpan"><i class="fas fa-star"></i></span><span class="starSpan"><i class="fas fa-star"></i></span><span class="starSpan"><i class="fas fa-star"></i></span><span class="starSpan"><i class="fas fa-star"></i></span>
+                      <p>Shoulder Bag Leather Bag Leather 
+                          undertakes laborious physical physical </p>
+                          <span class="priceNew">$130.00</span> <span class="priceOld"> from $340.00</span>
+                          <div class="divButton"> <a onclick="addShopping()">Add to card</a></div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <div class=" featuredOwl "> 
+                      <span class="discountSpan">30%</span>
+                      <span class="heardSpan"><i class="fal fa-window-close"></i></span>
+                      <div class="imageDiv"><img src="../image/bag2.png"></div>
+                      <span class="starSpan"><i class="fas fa-star"></i></span><span class="starSpan"><i class="fas fa-star"></i></span><span class="starSpan"><i class="fas fa-star"></i></span><span class="starSpan"><i class="fas fa-star"></i></span><span class="starSpan"><i class="fas fa-star"></i></span>
+                      <p>Shoulder Bag Leather Bag Leather 
+                          undertakes laborious physical physical </p>
+                          <span class="priceNew">$130.00</span> <span class="priceOld"> from $340.00</span>
+                          <div class="divButton"> <a onclick="addShopping()">Add to card</a></div>
+                  </div>
+                </div>
+            </div>
+              
+            </div>
+            </div>
+        </div>
+        <div class="container-fluid footer">
+            <div class="container">
+                <div class="row">
+                    <div class="div col-lg-6 col-md-6 col-sm-12">
+                        <h2>Snobella</h2> </div>
+                    <div class="div col-lg-6 col-md-6 col-sm-12">
+                        <div id="searchFooter"><input type="text"
+                            placeholder="Search all product"> <i class="fas fa-search "></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid underFooter" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-3">
+                        <p class="footerP">The wise man therefore always holds
+                            selection. The wise man therefore always 
+                            rejects pleasures to secure other greater
+                        </p>
+                        <div class="footerLetter">
+                            <span><i class="far fa-envelope"></i></span>
+                            <span class="footerMail">Snobella@gmail.com</span>
+                        </div>
+                        <div class="footerNum">
+                            <i class="far fa-phone-alt"></i> 
+                            <a href="#">+748 383 23 14</a> 
+                        </div>
+                        <div class="buttonFooter">
+                            <span><i class="fab fa-telegram-plane"></i>
+                                <a href="#">Send message</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-3">
+                        <ul class="footerList">
+                            <li>Shop</li>
+                            <li>Shoulder Bag</li>
+                            <li>Backpack</li>
+                            <li>Tote Bag</li>
+                            <li>Hand Bag</li>
+                            <li>Evening bags</li>
+                            <li>Purse</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-3">
+                        <ul class="footerList">
+                            <li>Company</li>
+                            <li>About us</li>
+                            <li>Contact</li>
+                            <li>Terms of Use</li>
+                            <li>Customer service</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-3">
+                        <ul class="footerList">
+                            <li>Help</li>
+                            <li>FAQ </li>
+                            <li>Delivery</li>
+                            <li>Cancellation of
+                                 the order</li>
+                            <li>Don't go back</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container bottomFooter">
+            <div class="row d-flex justify-content-between">
+                <div class="col-lg-9 col-md-8 col-sm-6">© 2020. All rights reserved.</div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-whatsapp"></i>
+                </div>
+             </div>
+        </div>
+        
+   
+
+    <script src="../js/AccountFavorite.js"></script>
+</body>
+</html>
